@@ -1,0 +1,46 @@
+/* Home.css */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  section h2,
+  section h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+  }
+  
+  a {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  h4 {
+    margin-bottom: 0.5em;
+    color: var(--secondary-color);
+  }
+  

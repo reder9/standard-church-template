@@ -1,0 +1,19 @@
+/* Footer.css */
+
+footer {
+    background-color: #343a40; /* Dark background */
+  }
+  
+  footer .social-links a {
+    font-size: 1.5rem;
+  }
+  
+  footer .social-links a:hover {
+    color: #0056b3; /* Hover color */
+  }
+  
+  footer p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  

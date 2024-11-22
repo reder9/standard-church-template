@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #3498db; /* Fallback */
+  --secondary-color: #916efa; /* Fallback */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav a {
+  margin: 0 1em;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}

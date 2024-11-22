@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-churchwebsites-dev-531a7-authRole",
+      "UnauthRoleArn": "arn:aws:iam::686255947626:role/amplify-churchwebsites-dev-531a7-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::686255947626:role/amplify-churchwebsites-dev-531a7-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-churchwebsites-dev-531a7-deployment",
+      "UnauthRoleName": "amplify-churchwebsites-dev-531a7-unauthRole",
+      "StackName": "amplify-churchwebsites-dev-531a7",
+      "StackId": "arn:aws:cloudformation:us-east-1:686255947626:stack/amplify-churchwebsites-dev-531a7/8e3b0c60-a871-11ef-a758-12d6ccd8600b",
+      "AmplifyAppId": "d1dyq6s7oxxcus"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1dyq6s7oxxcus",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

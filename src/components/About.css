@@ -1,0 +1,108 @@
+/* AboutPage.css */
+
+.about-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .about-section {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .mission-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #0056b3; /* Primary color */
+  }
+  
+  .about-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .history-section h2,
+  .leadership-section h2,
+  .beliefs-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0056b3; /* Primary color */
+  }
+  
+  .leadership-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .leader-card {
+    width: 250px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leader-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
+  
+  .beliefs-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .belief-item {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .belief-item h5 {
+    font-size: 1.2rem;
+    color: #0056b3;
+  }
+  
+  .call-to-action {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f9f9f9;
+    color: #0056b3;
+    border: 2px solid #f9f9f9;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #fff;
+    border-color: #0056b3;
+    color: #333;
+  }
+  
