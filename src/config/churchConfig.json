@@ -7,8 +7,10 @@
     "phone": "123-456-7890",
     "address": "123 Church Lane, Hometown, USA"
   },
-  "primaryColor": "#3498db",
-  "secondaryColor": "white",
+  "primaryColor": "#007bff",
+  "secondaryColor": "#6c757d",
+  "neutralColor": "#f8f9fa",
+  "textColor": "black",
   "socialLinks": {
     "facebook": "https://facebook.com/gracechurch",
     "twitter": "https://twitter.com/gracechurch",

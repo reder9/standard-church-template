@@ -4,6 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
+:root {
+  --primary-color: #007bff; /* Replace with value from config */
+  --secondary-color: #6c757d;
+  --neutral-color: #f8f9fa;
+  --text-color: #343a40;
+
+  /* Derivatives for hover states */
+  --primary-hover: #0056b3; /* Darker shade of primary */
+  --secondary-hover: #5a6268; /* Darker shade of secondary */
+}
 
 .logo {
   height: 6em;
