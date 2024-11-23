@@ -4,8 +4,11 @@ import churchConfig from "../config/churchConfig.json";
 
 const Footer: React.FC = () => (
   <footer
-    className="text-white py-4"
-    style={{ backgroundColor: churchConfig.primaryColor }}
+    className="footer"
+    style={{
+      backgroundColor: churchConfig.primaryColor,
+      color: churchConfig.primaryTextColor,
+    }}
   >
     <div className="container text-center">
       <p className="mb-0">
@@ -15,28 +18,31 @@ const Footer: React.FC = () => (
       <div className="social-links mt-3">
         <a
           href="#facebook"
-          className="text-white mx-2"
+          className="social-link"
           title="Facebook"
           target="_blank"
           rel="noopener noreferrer"
+          style={{ color: churchConfig.primaryTextColor }}
         >
           <i className="fab fa-facebook-f"></i>
         </a>
         <a
           href="#twitter"
-          className="text-white mx-2"
+          className="social-link"
           title="Twitter"
           target="_blank"
           rel="noopener noreferrer"
+          style={{ color: churchConfig.primaryTextColor }}
         >
           <i className="fab fa-twitter"></i>
         </a>
         <a
           href="#instagram"
-          className="text-white mx-2"
+          className="social-link"
           title="Instagram"
           target="_blank"
           rel="noopener noreferrer"
+          style={{ color: churchConfig.primaryTextColor }}
         >
           <i className="fab fa-instagram"></i>
         </a>

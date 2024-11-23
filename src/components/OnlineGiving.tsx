@@ -7,7 +7,9 @@ const OnlineGivingPage: React.FC = () => {
   return (
     <div className="online-giving-container">
       <h1>Online Giving</h1>
-      <p>Your generosity helps us continue our mission. Thank you for giving!</p>
+      <p>
+        Your generosity helps us continue our mission. Thank you for giving!
+      </p>
 
       {/* Embed the Stripe checkout page using an iframe */}
       <div className="iframe-container">

@@ -10,7 +10,8 @@
   "primaryColor": "#007bff",
   "secondaryColor": "#6c757d",
   "neutralColor": "#f8f9fa",
-  "textColor": "black",
+  "primaryTextColor": "#343a40",
+  "secondaryTextColor": "#6c757d",
   "socialLinks": {
     "facebook": "https://facebook.com/gracechurch",
     "twitter": "https://twitter.com/gracechurch",

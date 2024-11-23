@@ -1,19 +1,20 @@
-/* Footer.css */
-
-footer {
-    background-color: #343a40; /* Dark background */
+.footer {
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  footer .social-links a {
-    font-size: 1.5rem;
+  .social-links {
+    margin-top: 1rem;
   }
   
-  footer .social-links a:hover {
-    color: #0056b3; /* Hover color */
+  .social-link {
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
   }
   
-  footer p {
-    font-size: 1rem;
-    font-weight: 400;
+  .social-link:hover {
+    color: var(--primary-hover); /* Optional: derived from primary color */
   }
   
