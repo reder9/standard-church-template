@@ -17,6 +17,27 @@
           "appId": "d1dyq6s7oxxcus",
           "type": "manual"
         }
+      },
+      "auth": {
+        "churchwebsites361c755f": {
+          "userPoolId": "us-east-1_KKotTFCsQ",
+          "userPoolName": "churchconsolef68f95fa_userpool_f68f95fa-dev",
+          "webClientId": "5ro783c9ecptsa92vumc4bhar7",
+          "nativeClientId": "2u5g9if57hg6hn57a70ala890b",
+          "identityPoolId": "us-east-1:e5cb404c-963f-43e4-a901-9a99d7992241",
+          "identityPoolName": "churchconsolef68f95fa_identitypool_f68f95fa__dev",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::686255947626:role/amplify-churchconsole-dev-c51fd-authRole",
+          "authRoleName": "amplify-churchconsole-dev-c51fd-authRole",
+          "unauthRoleArn": "arn:aws:iam::686255947626:role/amplify-churchconsole-dev-c51fd-unauthRole",
+          "unauthRoleName": "amplify-churchconsole-dev-c51fd-unauthRole"
+        }
+      },
+      "storage": {
+        "churchwebsites7b844ce3": {
+          "bucketName": "churchconsoled4d54fc556c949ddbb94ca184d6edb1ec51fd-dev",
+          "region": "us-east-1"
+        }
       }
     }
   }

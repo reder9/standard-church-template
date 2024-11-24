@@ -8,6 +8,11 @@ import churchConfig from "./config/churchConfig.json";
 import AboutPage from "./components/About";
 import MinistriesPage from "./components/Ministries";
 import OnlineGivingPage from "./components/OnlineGiving";
+import StaffPage from "./components/Staff";
+import awsExports from './aws-exports.js';
+import { Amplify } from "aws-amplify";
+
+Amplify.configure(awsExports);
 
 // Dynamically set CSS variables from the config
 document.documentElement.style.setProperty(
@@ -31,6 +36,7 @@ const App: React.FC = () => (
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ministries" element={<MinistriesPage />} />
+        <Route path="/staff" element={<StaffPage />} />
         <Route path="/online-giving" element={<OnlineGivingPage />} />
       </Routes>
       <Footer />
