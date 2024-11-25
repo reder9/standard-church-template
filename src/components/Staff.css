@@ -1,0 +1,54 @@
+.container {
+    margin: 2rem auto;
+  }
+  
+  .staff-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+  }
+  
+  .staff-card img {
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .staff-card .label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .staff-card .info {
+    display: inline;
+    font-weight: normal;
+  }
+  
+  .staff-card .text-section {
+    margin-bottom: 1rem;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  @media (min-width: 768px) {
+    .staff-card-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .staff-card-row.reverse {
+      flex-direction: row-reverse;
+    }
+  
+    .staff-card .image-section,
+    .staff-card .text-section {
+      flex: 1;
+      max-width: 48%;
+    }
+  }
+  
