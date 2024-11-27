@@ -43,4 +43,28 @@ main {
     margin-bottom: 0.5em;
     color: var(--secondary-color);
   }
+
+  .slideshow-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  button.btn-secondary {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+  
+  button.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
   

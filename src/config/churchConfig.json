@@ -18,6 +18,7 @@
     "twitter": "https://twitter.com/gracechurch",
     "youtube": "https://youtube.com/gracechurch"
   },
+  "calendarEmbedUrl": "https://calendar.google.com/calendar/embed?src=cryptech313%40gmail.com&ctz=America%2FChicago",
   "serviceTimes": [
     {
       "day": "Sunday",
