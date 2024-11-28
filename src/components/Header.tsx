@@ -89,7 +89,10 @@ const Header: React.FC = () => {
                 >
                   Ministries
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="ministriesDropdown">
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="ministriesDropdown"
+                >
                   <li>
                     <a className="dropdown-item" href="/ministries">
                       Kids Ministry
@@ -121,7 +124,10 @@ const Header: React.FC = () => {
                 >
                   Events
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="ministriesDropdown">
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="ministriesDropdown"
+                >
                   <li>
                     <a className="dropdown-item" href="/events">
                       Event 1
@@ -129,7 +135,7 @@ const Header: React.FC = () => {
                   </li>
                   <li>
                     <a className="dropdown-item" href="/ministries">
-                     Event 2
+                      Event 2
                     </a>
                   </li>
                   <li>

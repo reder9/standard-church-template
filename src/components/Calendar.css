@@ -1,0 +1,40 @@
+.calendar-page {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.calendar-embed iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.upcoming-events {
+  margin-top: 2rem;
+}
+
+.upcoming-events .list-group-item {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-events .event-title {
+  font-size: 1.2rem;
+}
+
+.upcoming-events .event-date-time {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.upcoming-events .event-location {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.upcoming-events .event-description {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}

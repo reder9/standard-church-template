@@ -9,9 +9,18 @@ const HomePage: React.FC = () => {
 
   // Mocked event slideshow images
   const eventImages = [
-    { src: "https://via.placeholder.com/1200x500?text=Event+1", alt: "Event 1" },
-    { src: "https://via.placeholder.com/1200x500?text=Event+2", alt: "Event 2" },
-    { src: "https://via.placeholder.com/1200x500?text=Event+3", alt: "Event 3" },
+    {
+      src: "https://via.placeholder.com/1200x500?text=Event+1",
+      alt: "Event 1",
+    },
+    {
+      src: "https://via.placeholder.com/1200x500?text=Event+2",
+      alt: "Event 2",
+    },
+    {
+      src: "https://via.placeholder.com/1200x500?text=Event+3",
+      alt: "Event 3",
+    },
   ];
 
   // Automatically cycle through slides
@@ -24,7 +33,7 @@ const HomePage: React.FC = () => {
 
   const handlePreviousSlide = () => {
     setCurrentSlide((prevSlide) =>
-      prevSlide === 0 ? eventImages.length - 1 : prevSlide - 1
+      prevSlide === 0 ? eventImages.length - 1 : prevSlide - 1,
     );
   };
 
@@ -37,7 +46,7 @@ const HomePage: React.FC = () => {
       <div className="container py-5">
         {/* Welcome Section */}
         <section className="text-center mb-5">
-          <h1 className="display-4 text-primary" >{churchConfig.churchName}</h1>
+          <h1 className="display-4 text-primary">{churchConfig.churchName}</h1>
           <p className="lead">{churchConfig.welcomeMessage}</p>
           <p>{churchConfig.about}</p>
         </section>

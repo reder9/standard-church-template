@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import churchConfig from "./config/churchConfig.json";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { HelmetProvider } from "react-helmet-async";
 
 // @ts-ignore
-import awsExports from './aws-exports.js';
+import awsExports from "./aws-exports.js";
 import { Amplify } from "aws-amplify";
 
 Amplify.configure(awsExports);
@@ -16,11 +16,11 @@ Amplify.configure(awsExports);
 // Dynamically set CSS variables from the config
 document.documentElement.style.setProperty(
   "--primary-color",
-  churchConfig.primaryColor
+  churchConfig.primaryColor,
 );
 document.documentElement.style.setProperty(
   "--secondary-color",
-  churchConfig.secondaryColor
+  churchConfig.secondaryColor,
 );
 
 // Lazy load components
@@ -34,7 +34,10 @@ const CalendarPage = React.lazy(() => import("./components/Calendar"));
 
 const App: React.FC = () => (
   <HelmetProvider>
-    <div className="app-container"  style={{ backgroundColor: churchConfig.secondaryColor }} >
+    <div
+      className="app-container"
+      style={{ backgroundColor: churchConfig.secondaryColor }}
+    >
       <Router>
         <Header />
         <Suspense fallback={<div className="text-center py-5">Loading...</div>}>

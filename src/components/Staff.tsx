@@ -67,14 +67,9 @@ const StaffPage: React.FC = () => {
 
         <div className="row gy-5">
           {staff.map((member, index) => (
-            <div
-              key={index}
-              className="staff-card mb-4 shadow-sm"
-            >
+            <div key={index} className="staff-card mb-4 shadow-sm">
               <div
-                className={`staff-card-row ${
-                  index % 2 === 0 ? "" : "reverse"
-                }`}
+                className={`staff-card-row ${index % 2 === 0 ? "" : "reverse"}`}
               >
                 {/* Image Section */}
                 {member.picture && (
