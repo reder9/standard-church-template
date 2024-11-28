@@ -9,6 +9,7 @@ main {
     margin-bottom: 2em;
   }
   
+
   section h2,
   section h3 {
     color: var(--primary-color);
@@ -20,11 +21,6 @@ main {
     padding: 0;
   }
   
-  ul li {
-    margin-bottom: 1em;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 1em;
-  }
   
   a {
     color: var(--secondary-color);

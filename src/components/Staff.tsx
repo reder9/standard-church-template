@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import churchConfig from "../config/churchConfig.json";
 import { downloadData } from "aws-amplify/storage";
 import "./Staff.css";
+import HelmetLayout from "./Helmet";
 
 interface StaffMember {
   name: string;
@@ -55,58 +56,60 @@ const StaffPage: React.FC = () => {
   }
 
   return (
-    <div className="container my-5">
-      <header className="text-center mb-5">
-        <h1 className="display-4">Meet Our Team</h1>
-        <p className="lead">
-          Get to know the amazing team serving at {churchConfig.churchName}.
-        </p>
-      </header>
+    <HelmetLayout title="Staff">
+      <div className="container my-5">
+        <header className="text-center mb-5">
+          <h1 className="display-4">Meet Our Team</h1>
+          <p className="lead">
+            Get to know the amazing team serving at {churchConfig.churchName}.
+          </p>
+        </header>
 
-      <div className="row gy-5">
-        {staff.map((member, index) => (
-          <div
-            key={index}
-            className="staff-card mb-4 shadow-sm"
-          >
+        <div className="row gy-5">
+          {staff.map((member, index) => (
             <div
-              className={`staff-card-row ${
-                index % 2 === 0 ? "" : "reverse"
-              }`}
+              key={index}
+              className="staff-card mb-4 shadow-sm"
             >
-              {/* Image Section */}
-              {member.picture && (
-                <div className="image-section text-center mb-3 mb-md-0">
-                  <img
-                    src={member.picture}
-                    alt={member.name}
-                    className="img-fluid"
-                  />
-                </div>
-              )}
-
-              {/* Text Section */}
-              <div className="text-section">
-                <p>
-                  <span className="label">Name:</span>
-                  <span className="info">{member.name}</span>
-                </p>
-                <p>
-                  <span className="label">Title:</span>
-                  <span className="info">{member.title}</span>
-                </p>
-                {member.about && (
-                  <p>
-                    <span className="label">About:</span>
-                    <span className="info">{member.about}</span>
-                  </p>
+              <div
+                className={`staff-card-row ${
+                  index % 2 === 0 ? "" : "reverse"
+                }`}
+              >
+                {/* Image Section */}
+                {member.picture && (
+                  <div className="image-section text-center mb-3 mb-md-0">
+                    <img
+                      src={member.picture}
+                      alt={member.name}
+                      className="img-fluid"
+                    />
+                  </div>
                 )}
+
+                {/* Text Section */}
+                <div className="text-section">
+                  <p>
+                    <span className="label">Name:</span>
+                    <span className="info">{member.name}</span>
+                  </p>
+                  <p>
+                    <span className="label">Title:</span>
+                    <span className="info">{member.title}</span>
+                  </p>
+                  {member.about && (
+                    <p>
+                      <span className="label">About:</span>
+                      <span className="info">{member.about}</span>
+                    </p>
+                  )}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </HelmetLayout>
   );
 };
 

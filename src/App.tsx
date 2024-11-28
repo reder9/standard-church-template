@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import churchConfig from "./config/churchConfig.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { HelmetProvider } from "react-helmet-async";
 
 // @ts-ignore
 import awsExports from './aws-exports.js';
@@ -32,26 +33,25 @@ const OnlineGivingPage = React.lazy(() => import("./components/OnlineGiving"));
 const CalendarPage = React.lazy(() => import("./components/Calendar"));
 
 const App: React.FC = () => (
-  <div
-    className="app-container"
-    style={{ backgroundColor: churchConfig.secondaryColor }}
-  >
-    <Router>
-      <Header />
-      <Suspense fallback={<div className="text-center py-5">Loading...</div>}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/ministries" element={<MinistriesPage />} />
-          <Route path="/staff" element={<StaffPage />} />
-          <Route path="/online-giving" element={<OnlineGivingPage />} />
-          <Route path="/calendar" element={<CalendarPage />} />
-        </Routes>
-      </Suspense>
-      <Footer />
-    </Router>
-  </div>
+  <HelmetProvider>
+    <div className="app-container"  style={{ backgroundColor: churchConfig.secondaryColor }} >
+      <Router>
+        <Header />
+        <Suspense fallback={<div className="text-center py-5">Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/ministries" element={<MinistriesPage />} />
+            <Route path="/staff" element={<StaffPage />} />
+            <Route path="/online-giving" element={<OnlineGivingPage />} />
+            <Route path="/calendar" element={<CalendarPage />} />
+          </Routes>
+        </Suspense>
+        <Footer />
+      </Router>
+    </div>
+  </HelmetProvider>
 );
 
 export default App;

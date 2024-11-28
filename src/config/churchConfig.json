@@ -9,10 +9,10 @@
     "address": "123 Church Lane, Hometown, USA"
   },
   "primaryColor": "#007bff",
-  "secondaryColor": "#6c757d",
+  "secondaryColor": "white",
   "neutralColor": "#f8f9fa",
-  "primaryTextColor": "#343a40",
-  "secondaryTextColor": "#6c757d",
+  "primaryTextColor": "white",
+  "secondaryTextColor": "black",
   "socialLinks": {
     "facebook": "https://facebook.com/gracechurch",
     "twitter": "https://twitter.com/gracechurch",

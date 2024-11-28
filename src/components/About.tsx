@@ -1,8 +1,10 @@
 import React from "react";
 import "./About.css";
 import churchConfig from "../config/churchConfig.json";
+import HelmetLayout from "./Helmet";
 
 const AboutPage: React.FC = () => (
+  <HelmetLayout title="Home">
   <div className="about-container">
     {/* Church Mission Section */}
     <section className="about-section mission-section">
