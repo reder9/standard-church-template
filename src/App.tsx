@@ -6,6 +6,7 @@ import churchConfig from "./config/churchConfig.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { HelmetProvider } from "react-helmet-async";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 // @ts-ignore
 import awsExports from "./aws-exports.js";

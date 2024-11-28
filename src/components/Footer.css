@@ -1,19 +1,35 @@
 .footer {
-  padding: 1rem 0;
-  text-align: center;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+  background-color: #333; /* Or use your churchConfig.primaryColor */
 }
 
-.social-links {
-  margin-top: 1rem;
+.footer h5 {
+  margin-bottom: 15px;
 }
 
 .social-link {
-  margin: 0 0.5rem;
-  font-size: 1.2rem;
-  transition: color 0.3s ease-in-out;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
 }
 
 .social-link:hover {
-  color: var(--primary-hover); /* Optional: derived from primary color */
+  color: #ccc; /* Adjust hover color as needed */
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+hr.border-light {
+  border-color: #ccc;
+  margin: 30px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light {
+  color: #fff;
 }

@@ -10,15 +10,15 @@ const HomePage: React.FC = () => {
   // Mocked event slideshow images
   const eventImages = [
     {
-      src: "https://via.placeholder.com/1200x500?text=Event+1",
+      src: "https://media.istockphoto.com/id/1346799613/photo/open-bible-on-dark-wood-with-golden-lights.webp?s=2048x2048&w=is&k=20&c=op0bNw0VT2iq7zOZEQZZUuJGNL8inlCZ38di7cHBmsg=",
       alt: "Event 1",
     },
     {
-      src: "https://via.placeholder.com/1200x500?text=Event+2",
+      src: "https://media.istockphoto.com/id/1486290488/vector/2024-new-year-with-abstract-shiny-color-gold-wave-design-element-and-glitter-effect-on-dark.webp?s=2048x2048&w=is&k=20&c=ndVaYWgfPcIPhUgQaLjLio75d0r9MD8hqQz4DJK8n78=",
       alt: "Event 2",
     },
     {
-      src: "https://via.placeholder.com/1200x500?text=Event+3",
+      src: "https://media.istockphoto.com/id/931838724/photo/cross.webp?s=2048x2048&w=is&k=20&c=ELEMSZjqvfUbm8tREV6g_DPN7ltq6zTum4SgwZwJ_FU=",
       alt: "Event 3",
     },
   ];
@@ -80,7 +80,7 @@ const HomePage: React.FC = () => {
         </section>
 
         {/* Service Times */}
-        <section className="mb-5">
+        <section className="service-times mb-5">
           <h2 className="text-secondary">Service Times</h2>
           <ul className="list-group">
             {churchConfig.serviceTimes.map((service, index) => (
@@ -125,48 +125,6 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </section>
-
-        {/* Contact Section */}
-        <section className="mb-5">
-          <h2 className="text-secondary">Contact Us</h2>
-          <div className="card p-4">
-            <p>
-              <strong>Email:</strong> {churchConfig.contact.email}
-            </p>
-            <p>
-              <strong>Phone:</strong> {churchConfig.contact.phone}
-            </p>
-            <p>
-              <strong>Address:</strong> {churchConfig.contact.address}
-            </p>
-            <div>
-              <a
-                href={churchConfig.socialLinks.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary me-2"
-              >
-                Facebook
-              </a>
-              <a
-                href={churchConfig.socialLinks.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-info me-2"
-              >
-                Twitter
-              </a>
-              <a
-                href={churchConfig.socialLinks.youtube}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-danger"
-              >
-                YouTube
-              </a>
-            </div>
           </div>
         </section>
       </div>

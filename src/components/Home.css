@@ -46,7 +46,8 @@ h4 {
 
 .slideshow-image {
   width: 100%;
-  max-height: 400px;
+  height: 100%;
+  max-height: 500px;
   object-fit: cover;
 }
 
@@ -59,4 +60,17 @@ button.btn-secondary {
 
 button.btn-secondary:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.service-times {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text inside */
+}
+.list-group {
+  width: auto; /* Adjust width to content or set a max-width */
+}
+.list-group-item {
+  text-align: center; /* Center list text */
 }
