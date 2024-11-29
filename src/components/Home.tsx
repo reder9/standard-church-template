@@ -58,6 +58,7 @@ const HomePage: React.FC = () => {
             <img
               src={eventImages[currentSlide].src}
               alt={eventImages[currentSlide].alt}
+              loading="lazy"
               className="slideshow-image img-fluid"
             />
 
