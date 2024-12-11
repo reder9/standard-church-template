@@ -3,11 +3,9 @@
   "churchName": "Grace Community Church",
   "welcomeMessage": "Welcome to Grace Community Church!",
   "about": "We are a community-focused church dedicated to serving our members and our neighbors.",
-  "contact": {
-    "email": "contact@gracechurch.org",
-    "phone": "123-456-7890",
-    "address": "123 Church Lane, Hometown, USA"
-  },
+  "email": "contact@gracechurch.org",
+  "phone": "123-456-7890",
+  "address": "123 Church Lane, Hometown, USA",
   "primaryColor": "#007bff",
   "secondaryColor": "white",
   "neutralColor": "#f8f9fa",

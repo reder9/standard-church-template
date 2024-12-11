@@ -25,13 +25,13 @@ const Footer: React.FC = () => {
           <div className={`${columnClass} mb-4`}>
             <h5 className="text-light">Contact Us</h5>
             <p>
-              <strong>Email:</strong> {churchConfig.contact.email}
+              <strong>Email:</strong> {churchConfig.email}
             </p>
             <p>
-              <strong>Phone:</strong> {churchConfig.contact.phone}
+              <strong>Phone:</strong> {churchConfig.phone}
             </p>
             <p>
-              <strong>Address:</strong> {churchConfig.contact.address}
+              <strong>Address:</strong> {churchConfig.address}
             </p>
           </div>
 

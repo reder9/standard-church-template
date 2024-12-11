@@ -4,7 +4,7 @@ import churchConfig from "../config/churchConfig.json";
 import HelmetLayout from "./Helmet";
 
 const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-  churchConfig.contact.address,
+  churchConfig.address,
 )}`;
 
 const ContactPage: React.FC = () => (
@@ -24,19 +24,19 @@ const ContactPage: React.FC = () => (
           <li>
             <strong>Address:</strong>{" "}
             <a href={mapUrl} target="_blank" rel="noopener noreferrer">
-              {churchConfig.contact.address}
+              {churchConfig.address}
             </a>
           </li>
           <li>
             <strong>Phone:</strong>{" "}
-            <a href={`tel:${churchConfig.contact.phone}`}>
-              {churchConfig.contact.phone}
+            <a href={`tel:${churchConfig.phone}`}>
+              {churchConfig.phone}
             </a>
           </li>
           <li>
             <strong>Email:</strong>{" "}
-            <a href={`mailto:${churchConfig.contact.email}`}>
-              {churchConfig.contact.email}
+            <a href={`mailto:${churchConfig.email}`}>
+              {churchConfig.email}
             </a>
           </li>
         </ul>
