@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
 
   const handlePreviousSlide = () => {
     setCurrentSlide((prevSlide) =>
-      prevSlide === 0 ? eventImages.length - 1 : prevSlide - 1,
+      prevSlide === 0 ? eventImages.length - 1 : prevSlide - 1
     );
   };
 
@@ -93,41 +93,53 @@ const HomePage: React.FC = () => {
         </section>
 
         {/* Ministries */}
-        <section className="mb-5">
-          <h2 className="text-secondary">Our Ministries</h2>
-          <div className="row">
-            {churchConfig.ministries.map((ministry, index) => (
-              <div key={index} className="col-md-4 mb-4">
-                <div className="card h-100">
-                  <div className="card-body">
-                    <h5 className="card-title">{ministry.name}</h5>
-                    <p className="card-text">{ministry.description}</p>
+        {churchConfig.ministries?.length > 0 ? (
+          <section className="mb-5">
+            <h2 className="text-secondary">Our Ministries</h2>
+            <div className="row">
+              {churchConfig.ministries.map((ministry, index) => (
+                <div key={index} className="col-md-4 mb-4">
+                  <div className="card h-100">
+                    <div className="card-body">
+                      <h5 className="card-title">{ministry.name}</h5>
+                      <p className="card-text">{ministry.description}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </section>
+              ))}
+            </div>
+          </section>
+        ) : (
+          <p className="text-muted text-center mb-5">
+            No ministries are currently available.
+          </p>
+        )}
 
         {/* Upcoming Events */}
-        <section className="mb-5">
-          <h2 className="text-secondary">Upcoming Events</h2>
-          <div className="row">
-            {churchConfig.upcomingEvents.map((event, index) => (
-              <div key={index} className="col-md-6 mb-4">
-                <div className="card h-100">
-                  <div className="card-body">
-                    <h5 className="card-title">{event.title}</h5>
-                    <p className="card-text">
-                      <strong>Date:</strong> {event.date}
-                    </p>
-                    <p className="card-text">{event.description}</p>
+        {churchConfig.upcomingEvents?.length > 0 ? (
+          <section className="mb-5">
+            <h2 className="text-secondary">Upcoming Events</h2>
+            <div className="row">
+              {churchConfig.upcomingEvents.map((event, index) => (
+                <div key={index} className="col-md-6 mb-4">
+                  <div className="card h-100">
+                    <div className="card-body">
+                      <h5 className="card-title">{event.title}</h5>
+                      <p className="card-text">
+                        <strong>Date:</strong> {event.date}
+                      </p>
+                      <p className="card-text">{event.description}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </section>
+              ))}
+            </div>
+          </section>
+        ) : (
+          <p className="text-muted text-center mb-5">
+            No upcoming events at this time.
+          </p>
+        )}
       </div>
     </HelmetLayout>
   );
