@@ -1,15 +1,15 @@
 {
-    "address": "asfafd",
-    "churchName": "asdfas",
-    "createdAt": "2024-11-21T02:08:51.821264Z",
-    "email": "asdfdasdf",
-    "id": "7b00b5ca-775b-45b5-ac57-c2b3db4d5cfe",
-    "logo": "churches/7b00b5ca-775b-45b5-ac57-c2b3db4d5cfe/logos/logo.png",
-    "officeHours": "",
-    "phoneNumber": "sdafdsds",
-    "primaryColor": "#000000",
-    "registrationKey": "xkdtXSHtRu6HFIQDLUHoFA",
-    "secondaryColor": "#ffffff",
+    "updatedAt": "2024-11-24T03:05:52.181Z",
     "tagline": "assdfaf",
-    "updatedAt": "2024-11-24T03:05:52.181Z"
+    "secondaryColor": "#ffffff",
+    "registrationKey": "xkdtXSHtRu6HFIQDLUHoFA",
+    "primaryColor": "#000000",
+    "phoneNumber": "sdafdsds",
+    "officeHours": "",
+    "logo": "churches/7b00b5ca-775b-45b5-ac57-c2b3db4d5cfe/logos/logo.png",
+    "id": "7b00b5ca-775b-45b5-ac57-c2b3db4d5cfe",
+    "email": "asdfdasdf",
+    "createdAt": "2024-11-21T02:08:51.821264Z",
+    "churchName": "asdfas",
+    "address": "asfafd"
 }
