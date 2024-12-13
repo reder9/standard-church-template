@@ -1,101 +1,15 @@
 {
-  "churchId": "7b00b5ca-775b-45b5-ac57-c2b3db4d5cfe",
-  "churchName": "Grace Community Church",
-  "welcomeMessage": "Welcome to Grace Community Church!",
-  "about": "We are a community-focused church dedicated to serving our members and our neighbors.",
-  "email": "contact@gracechurch.org",
-  "phone": "123-456-7890",
-  "address": "123 Church Lane, Hometown, USA",
-  "primaryColor": "#007bff",
-  "secondaryColor": "white",
-  "neutralColor": "#f8f9fa",
-  "primaryTextColor": "white",
-  "secondaryTextColor": "black",
-  "socialLinks": {
-    "facebook": "https://facebook.com/gracechurch",
-    "twitter": "https://twitter.com/gracechurch",
-    "youtube": "https://youtube.com/gracechurch"
-  },
-  "calendarEmbedUrl": "https://calendar.google.com/calendar/embed?src=cryptech313%40gmail.com&ctz=America%2FChicago",
-  "serviceTimes": [
-    {
-      "day": "Sunday",
-      "times": ["9:00 AM", "11:00 AM"]
-    },
-    {
-      "day": "Wednesday",
-      "times": ["7:00 PM"]
-    }
-  ],
-  "ministries": [
-    {
-      "name": "Children's Ministry",
-      "description": "A fun and safe environment for kids to learn about God's love.",
-      "image": "/images/childrens-ministry.jpg",
-      "contact": "children@gracechurch.org"
-    },
-    {
-      "name": "Youth Ministry",
-      "description": "Helping teens grow in faith and connect with peers.",
-      "image": "/images/youth-ministry.jpg",
-      "contact": "youth@gracechurch.org"
-    },
-    {
-      "name": "Music Ministry",
-      "description": "Leading the congregation in worship through music.",
-      "image": "/images/music-ministry.jpg",
-      "contact": "music@gracechurch.org"
-    },
-    {
-      "name": "Outreach Ministry",
-      "description": "Serving our community and sharing God’s love through acts of kindness.",
-      "image": "/images/outreach-ministry.jpg",
-      "contact": "outreach@gracechurch.org"
-    }
-  ],
-  "upcomingEvents": [
-    {
-      "title": "Christmas Eve Service",
-      "date": "December 24, 2024",
-      "description": "Join us for a special candlelight service at 7:00 PM."
-    },
-    {
-      "title": "Community Potluck",
-      "date": "January 15, 2025",
-      "description": "Bring your favorite dish and join us for an evening of fellowship."
-    }
-  ],
-  "missionStatement": "Transforming lives through faith, hope, and love.",
-  "history": "Founded in 1985, Grace Community Church has been a place of worship, community, and service for over three decades.",
-  "leadership": [
-    {
-      "name": "Pastor John Smith",
-      "role": "Senior Pastor",
-      "photo": "/images/john_smith.jpg"
-    },
-    {
-      "name": "Jane Doe",
-      "role": "Worship Leader",
-      "photo": "/images/jane_doe.jpg"
-    },
-    {
-      "name": "Tom Brown",
-      "role": "Youth Pastor",
-      "photo": "/images/tom_brown.jpg"
-    }
-  ],
-  "beliefs": [
-    {
-      "title": "The Bible",
-      "description": "We believe the Bible is the inspired Word of God, providing guidance and truth for our lives."
-    },
-    {
-      "title": "Salvation",
-      "description": "We believe salvation is a gift from God, available to all who accept Jesus Christ as their Savior."
-    },
-    {
-      "title": "Community",
-      "description": "We believe in building a strong community through love, service, and fellowship."
-    }
-  ]
+    "updatedAt": "2024-11-24T03:05:52.181Z",
+    "tagline": "assdfaf",
+    "secondaryColor": "#ffffff",
+    "registrationKey": "xkdtXSHtRu6HFIQDLUHoFA",
+    "primaryColor": "#000000",
+    "phoneNumber": "sdafdsds",
+    "officeHours": "",
+    "logo": "churches/7b00b5ca-775b-45b5-ac57-c2b3db4d5cfe/logos/logo.png",
+    "id": "7b00b5ca-775b-45b5-ac57-c2b3db4d5cfe",
+    "email": "asdfdasdf",
+    "createdAt": "2024-11-21T02:08:51.821264Z",
+    "churchName": "asdfas",
+    "address": "asfafd"
 }
